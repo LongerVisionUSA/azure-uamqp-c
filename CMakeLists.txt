@@ -1,7 +1,7 @@
 #Copyright (c) Microsoft. All rights reserved.
 #Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.12.0)
 project(uamqp)
 
 FILE(READ ${CMAKE_CURRENT_LIST_DIR}/version.txt UAMQP_VERSION)
